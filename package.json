@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/barend-erasmus/pid-controller/issues"
   },
-  "homepage": "https://github.com/barend-erasmus/pid-controller#readme"
+  "homepage": "https://github.com/barend-erasmus/pid-controller#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.34"
+  }
 }

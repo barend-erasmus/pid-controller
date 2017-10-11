@@ -1,3 +1,5 @@
+import * as fs from 'fs';
+
 export class PIDController {
 
     private previousError: number = 0;
@@ -29,6 +31,7 @@ export class PIDController {
         this.previousError = error;
 
         this.iTerm += error * this.iGain;
+
         if (this.iTerm > this.iTermMax) {
             this.iTerm = this.iTermMax;
         } else if (this.iTerm < this.iTermMin) {
@@ -42,6 +45,13 @@ export class PIDController {
         } else if (output > this.outputMax) {
             output = this.outputMax;
         }
+
+        // fs.appendFileSync('pTerm.log', pTerm + '\n');
+        // fs.appendFileSync('iTerm.log', this.iTerm + '\n');
+        // fs.appendFileSync('dTerm.log', dTerm + '\n');
+
+        // fs.appendFileSync('output.log', output + '\n');
+        // fs.appendFileSync('current.log', current + '\n');
 
         return output;
     }
