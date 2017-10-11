@@ -26,7 +26,6 @@ Derivative Controller cannot be used on it own as the output is directly proport
 * Two-Wheeled, Self-Balancing Scooter (Segway)
 * Drone Flight Controller
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=fYS1dXx7AuA)
 
 ## Useful Links
 
