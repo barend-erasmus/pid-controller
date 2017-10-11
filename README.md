@@ -6,11 +6,11 @@ A proportional–integral–derivative controller (PID controller or three term 
 
 ## Proportional Controller
 
-Proportional Controller gives an output which is proportional to the current error where the current error is calculated by subtracting the target from the current value. This type of controller is prone to overshooting the target and ends up oscillating.
+Proportional Controller gives an output which is proportional to the current error where the current error is calculated by subtracting the target from the current value. This type of controller is tend to overshoot the target and ends up oscillating.
 
 ## Integral Controller
 
-Coming Soon
+Integral Controller, as the name suggest, gives an output directly proportional to the intergral of the current error. The combination of a Proportional Controller and Integral Controller is known as a Reset Controller as it will **eventually** reach to target.
 
 ## Derivative Controllers
 
