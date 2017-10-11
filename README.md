@@ -19,6 +19,25 @@ Derivative Controller cannot be used on its own as the output is directly propor
 ## Example Chart
 ![](https://github.com/barend-erasmus/pid-controller/raw/master/images/chart.png)
 
+## Code Example
+
+
+```javascript
+const error = current - target;
+
+const pTerm = error * pGain;
+
+const dTerm = (error - previousError) * dGain;
+
+previousError = error;
+
+iTerm += error * iGain;
+
+const output = pTerm + iTerm + dTerm;
+
+return output;
+```
+
 ## Where are PID Controllers used?
 
 * Air Conditioning
