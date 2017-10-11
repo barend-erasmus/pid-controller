@@ -10,7 +10,7 @@ Proportional Controller gives an output which is proportional to the current err
 
 ## Integral Controller
 
-Integral Controller, as the name suggest, gives an output directly proportional to the intergral of the current error. The combination of a Proportional Controller and Integral Controller is known as a Reset Controller as it will **eventually** reach to target.
+Integral Controller, as the name suggest, gives an output directly proportional to the intergral of the current error. The combination of a Proportional Controller and Integral Controller is known as a Reset Controller as it will **eventually** reach the target.
 
 ## Derivative Controller
 
