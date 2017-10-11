@@ -14,10 +14,19 @@ Integral Controller, as the name suggest, gives an output directly proportional 
 
 ## Derivative Controllers
 
-Coming Soon
+Derivative Controller cannot be used on it own as the output is directly proportional to the derivative of the current error. For this controller to work there needs to a rate of change, called the derivative.
 
 ## Example Chart
 ![](https://github.com/barend-erasmus/pid-controller/raw/master/images/chart.png)
+
+## Where are PID Controllers used?
+
+* Airconditioning
+* Cruise Control
+* Two-Wheeled, Self-Balancing Scooter (Segway)
+* Drone Flight Controller
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=fYS1dXx7AuA)
 
 ## Useful Links
 
